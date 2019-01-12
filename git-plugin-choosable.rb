@@ -12,7 +12,8 @@ class GitPluginChoosable < Formula
     end
 
     def install
-        bin.install 'git-plugin-choosable'
+        bin.install 'git-switch'
+        bin.install 'git-remove'
     end
 
     test do
